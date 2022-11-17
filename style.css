@@ -66,6 +66,12 @@
 .blocks_block__image {
 	max-height: 170px;
 	max-width: initial;
+	transition: transform .5s;
+	overflow: hidden;
+}
+.blocks_block__image:hover {
+	transform: scale(1.1);
+	position: relative;
 }
 .column__first_blocks {
 	display: flex;
@@ -93,6 +99,8 @@
 .blocks_block__text {
 	text-align: center;
 	color: #000;
+	font-size: 14px;
+	margin: 20px 0 0 0;
 
 }
 .prod_change {
