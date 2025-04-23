@@ -57,11 +57,13 @@
 .product {
 	display: flex;
 	flex-direction: column;
+	align-items: center;
 }
 .product__column {
 	display: flex;
 	flex-direction: column;
-	margin: 0 auto;
+	align-items: center;
+	justify-content: center;
 }
 .blocks_block__image {
 	max-height: 170px;
